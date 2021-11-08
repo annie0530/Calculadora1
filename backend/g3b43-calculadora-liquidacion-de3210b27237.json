@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "g3b43-calculadora-liquidacion",
+  "private_key_id": "de3210b27237fd47ceedbf031e6cd55fcbe319e4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6x2iUcy7Lc+Dc\nlZzvSEFhiLwauXQYKce7LffTd3mu5Jk8vP+Z/83gDFn7AE0sbHr610PTtuzTXL7/\no7HfffBKawirp6aRBwOU8AibTmYTleAUx+7mCv4YFiXEfIJBUz9VLl7gPfe7CpCx\n3L+vgqSWlLnlR6pYI2t1SsTHW17RULciabkNSnB5EJHtleZt7lBbGTU1S4BxJssy\nU0xT7tPdcr5S0CxMVXdbF6WacaZkzVYoxoprBl28x6Db7JALTelurZh0/FQzmz0Y\nCOxpK0w8qgYkuA2Z+V3+c1S41vdjlNDM/rZGQPGQPIOxXjN59IqCP+3KIlQzkoOk\n2oDx8hmlAgMBAAECggEAPeeDcNgwJTxVxaZMqj3fdY0VEyJuKOgIC7Czl8HccavQ\nYgIeERNoT56oX/l8moGlzOd10oCpQ3BU2XOOq40ZDAEnkYTyPtT9Seq4X4j/afRd\nnWWad2IjTyZgBBxkK3SE5B2HUnkXV0WsKVcJrQj2tfW7GxPCkI3Eus46I/zTkznE\na6L4HlXIFfllUavELz69lTLodOBb2RcGZTehBVYSq7m2VsIuQGze5rK0QruPJMFP\nqipq5tRO8VRyv+1OGYThU1n5YBaR3l0gkkzj9kZ3bVHV/FsFSMJ8yU0Ocw3JksQO\nBRrtJIi02GA2PIgPath25HOwM8DdMgfsh3IgosYwDQKBgQD0qOakT9LuFGDU4CSr\nsLqzuSYo9iHADXawN5uaVkOM1mMCjP5hdxQEWij1z+ya2Uj7a1xF4D/BYEI0ssFF\nkKVcKHZ6RmBiKKyo2oS3fc0ERtNTx9/B+FKm1G0oGcCqBwa3vCQGJzIWAJ7arrN6\ncWUKK+pnWDppwPwH7/gXOMxyVwKBgQDDb7OeMdRaaChZ6MmQ4a38c75AWrt5ihx4\naiDzo2yBi+4tsGMBYesIHHsCXoc9HMuqYgbdgekQPnNvtzkahlCYlgB4YNdMpyc1\n8tkGt41/pp99AYc5lwXqPBHwgyzscK2IgsDNqbhYXzj6eiLnSz8E26wPkV+Q73sZ\nICO3oPPuYwKBgCLbQWjdeoay3ozVlkPjvOXIFhi14F8VS/iVI5Ucfyk8jgSaA8/t\nACwSkE1dHy98j3pKdG38Ifkx9py9bu2zSuvTU/XduvOhKeAwqcHeqWvXj1obWtSu\nxU/Baf/Rk3Jl594bbuJ1iRw7YGZ1h1qFd0i4sv+gQUo51W5oEOd2DyKnAoGBAImY\nklB1arnADXDHqWo8yd8sqizq9IUsjMDmj46ZZ6KJn0ZBomLtyqjqTFytqu+G34l0\n/LplZW6PWXy09hpLqGDVcz1NiSepo7yi3tOQ1ami6TT8p3UPdBWm90ZrRGyvJC4x\nSIdDz8tAN4B6Dyri2lqUQr6vLiZ/xR46d4soYbVbAoGBALELcXndCIiBjfTGlHBW\nj0cWZY/KB0Pgv1XUHb01Qk5+GOJf0fKo+4vKCfDFR1b3Oz+VzNa0CBYN9tMSKd15\nQej8pJBwcGDYlRX5wXgAbFN+Leak6pKtQdhfguHujFVZ9jCBhIz9zf0lEieLd0Nq\nR1KpdwiutYoKhUu0XQsPA7vR\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-uchk3@g3b43-calculadora-liquidacion.iam.gserviceaccount.com",
+  "client_id": "113631014834949977597",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-uchk3%40g3b43-calculadora-liquidacion.iam.gserviceaccount.com"
+}
