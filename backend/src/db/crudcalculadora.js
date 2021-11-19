@@ -2,7 +2,7 @@ const db = require('./firebase.js');
 
 //obtener a todos los datos
 function getDatos(callback) {
-    return db.collection('users').get()
+    return db.collection('calculadora').get()
         .then((refDoc) => {
             var arrayExperts = [];
             refDoc.forEach(doc => {
@@ -18,9 +18,13 @@ function getDatos(callback) {
 }
 
 function getDato(eid, callback) {
-    return db.collection('users').doc(eid).get()
+    return db.collection('calculadora').doc(eid).get()
         .then((refDoc) => {
-            callback(refDoc.data());
+            if (refDoc.exists) {
+                callback(refDoc.data());
+            } else {
+                callback('no such data')
+            }
         })
         .catch(err => {
             //console.error("error to get user", err);
@@ -28,7 +32,21 @@ function getDato(eid, callback) {
         })
 
 }
+
+function addcalculadora(usuario, callback) {
+    return db.collection('calculadora').add(usuario)
+        .then(() => {
+            callback("succes to create the calculator");
+
+        })
+        .catch((err) => {
+            callback("error to create calculadora", err)
+        })
+}
+
 module.exports = {
     getDatos,
-    getDato
+    getDato,
+    addcalculadora
+
 }
