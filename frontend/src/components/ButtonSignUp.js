@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 const ButtonSignUp = () => {
   return (
     <>
-      <button>Registrarse</button>
+      <Button variant="outline-primary" style={{ margin: '3px' }}>Sign Up</Button>
     </>
-  )
+
+  );
 }
 
 export default ButtonSignUp

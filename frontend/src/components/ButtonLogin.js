@@ -1,10 +1,11 @@
 
-import React from 'react'
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 
 const ButtonLogin = () => {
   return (
     <>
-      <button>Login</button>
+      <Button variant="primary" style={{ margin: '3px' }}>Login</Button>
     </>
   )
 }
