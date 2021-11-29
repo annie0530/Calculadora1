@@ -7,14 +7,13 @@ const Login = () => {
   return (
     <>
       <Container>
-        <NavBar></NavBar>
         <Row>
           <Col>
             <div style={{ textAlign: 'center' }}>
-              <h2 className="mt-3">Iniciar esión</h2>
+              <h2 className="mt-3">Iniciar sesión</h2>
             </div>
             <div>
-              <p>¿Aún no tienes una cuenta? - <a href={{src:""}}>Registrate</a></p>
+              <p>¿Aún no tienes una cuenta? - <a href="/register">Registrate</a></p>
             </div>
             <Form className="w-100">
               <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -32,7 +31,9 @@ const Login = () => {
 
           <Col><img
             className="d-block w-100 mt-3"
-            src={persona} />
+            src={persona}
+            style={{ width: "100%", maxWidth: "360px" }}
+          />
           </Col>
         </Row>
       </Container>

@@ -1,7 +1,8 @@
 import React from 'react';
 import ButtonLogin from './ButtonLogin';
 import ButtonSignUp from './ButtonSignUp';
-import { Navbar, Container, Nav } from 'react-bootstrap';
+import { Navbar, Container, Nav, Image } from 'react-bootstrap';
+import logo from '../assets/images/Logo.png'
 
 
 const NavBar = () => {
@@ -10,7 +11,8 @@ const NavBar = () => {
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/home">CADCUMAX</Navbar.Brand>
+          <Image src={logo} width="80px" height="80px" roundedCircle/>
+          <Navbar.Brand className="mx-2">CADCUMAX</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">

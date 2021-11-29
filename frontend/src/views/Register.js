@@ -1,20 +1,18 @@
 import React from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import persona from "../assets/images/pensando.jpg";
-import NavBar from '../components/NavBar';
 
 const Register = () => {
   return (
     <>
       <Container>
-        <NavBar></NavBar>
         <Row>
           <Col>
             <div style={{ textAlign: 'center' }}>
               <h2 className="mt-3">Registrarse</h2>
             </div>
             <div>
-              <p>¿Ya tienes una cuenta? - <a href={{ src: "" }}>Inicia Sesion</a></p>
+              <p>¿Ya tienes una cuenta? - <a href="/login">Inicia Sesión</a></p>
             </div>
             <Form className="w-100">
               <Form.Group className="mb-3" controlId="formBasicEmail">

@@ -7,7 +7,6 @@ import NavBar from '../components/NavBar';
 function Home() {
     return (
         <>
-            <NavBar />
             <CarouselInformation />
             <Information />
             <Instructions />
