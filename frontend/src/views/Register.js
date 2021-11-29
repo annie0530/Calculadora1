@@ -37,7 +37,9 @@ const Register = () => {
 
           <Col><img
             className="d-block w-100 mt-3"
-            src={persona} />
+            src={persona}
+            style = {{width:"100%", maxWidth:"360px"}}
+            />
           </Col>
         </Row>
       </Container>
