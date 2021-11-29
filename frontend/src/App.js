@@ -10,6 +10,7 @@ import Register from "./views/Register";
 import NotFound from "./views/NotFound";
 import NavBar from './components/NavBar';
 import LiquidationPage from './views/LiquidationPage';
+import Profile from './views/Profile';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/liquidationPage" element={<LiquidationPage />} />
+          <Route path="/profile" element={<Profile />} />
           <Route path='*' element={<NotFound />} />
 
         </Routes>

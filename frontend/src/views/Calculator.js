@@ -4,8 +4,8 @@ import { Row, Col, Container, Form, Button, Stack, } from 'react-bootstrap';
 const Calculator = () => {
     return (
         <>
-            <h1>CALCULADORA LIQUIDACION</h1>
             <Container className="w-50">
+                <h1>CALCULADORA LIQUIDACION</h1>
                 <Row>
                     <Col>
                         <Form className="w-100">
@@ -56,7 +56,7 @@ const Calculator = () => {
                                     <Col><Form.Label>Clase de riesgo laboral</Form.Label>
                                     </Col>
                                     <Col><Form.Select aria-label="Default select example">
-                                        <option>Clase</option>
+                                        <option>riesgo</option>
                                         <option value="1">Clase I</option>
                                         <option value="2">Clase II</option>
                                         <option value="3">Clase III</option>

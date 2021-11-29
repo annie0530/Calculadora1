@@ -1,11 +1,17 @@
 import React from 'react';
 import { Form, Button, Container, Row, Col } from 'react-bootstrap';
 import persona from "../assets/images/pensando.jpg";
-import NavBar from '../components/NavBar';
+import SingInGoogle from '../components/SingInGoogle';
+import { Navigate } from 'react-router';
 
 const Login = () => {
+  var component = <Navigate to="/home" />;
+  if (JSON.parse(localStorage.getItem('session')) == undefined) {
+    component = null
+  }
   return (
     <>
+      {component}
       <Container>
         <Row>
           <Col>
@@ -25,7 +31,10 @@ const Login = () => {
                 <Form.Label>Contraseña</Form.Label>
                 <Form.Control type="password" placeholder="Escriba su contraseña" />
               </Form.Group>
-              <Button variant="primary" type="submit">Iniciar Sesión</Button>
+              <div style={{ textAlign: "center" }}>
+                <Button variant="primary" type="submit" className="mx-auto">Iniciar Sesión</Button>
+              </div>
+              <SingInGoogle />
             </Form>
           </Col>
 

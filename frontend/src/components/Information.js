@@ -4,7 +4,7 @@ import persona from "../assets/images/pensando.jpg";
 
 const Information = () => {
     return (
-        <Container>
+        <Container className="mt-4">
             <Row>
                 <Col>
                     <h2>¿Que es una calculadora de liquidación?</h2>
