@@ -5,9 +5,11 @@ import { Navbar, Container, Nav, Image } from 'react-bootstrap';
 import logo from '../assets/images/Logo.png'
 
 
-const NavBar = () => {
+const NavBar = () =>{
+  const closeSession = () =>{
+    localStorage.clear();
+  }
   return (
-
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container>
@@ -18,6 +20,7 @@ const NavBar = () => {
             <Nav className="me-auto">
               <Nav.Link href="/home">HOME</Nav.Link>
               <Nav.Link href="/calculator">Calculadora</Nav.Link>
+              <Nav.Link href="/home" onClick={()=>{closeSession()}}>Salir</Nav.Link>
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

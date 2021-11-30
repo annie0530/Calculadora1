@@ -1,10 +1,9 @@
 import React from 'react';
-import { Row, Col, Container, Form, Button, Stack, } from 'react-bootstrap';
+import { Row, Col, Container, Form, Button } from 'react-bootstrap';
 
 const LiquidationPage = () => {
     return (
         <>
-
             <Container className="w-50">
                 <h1>LIQUIDACION</h1>
                 <Row>

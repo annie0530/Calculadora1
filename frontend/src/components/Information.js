@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import persona from "../assets/images/pensando.jpg";
+import persona from "../assets/images/2.jpeg";
 
 const Information = () => {
     return (
@@ -15,7 +15,7 @@ const Information = () => {
                     <img
                         className="d-block w-50"
                         src={persona}
-                        style={{ margin: 'auto'}}
+                        style={{ margin: 'auto', maxWidth: "250px" }}
                     /></Col>
             </Row>
         </Container>
