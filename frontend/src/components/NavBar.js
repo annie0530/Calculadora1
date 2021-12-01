@@ -7,7 +7,7 @@ import logo from '../assets/images/Logo.png'
 
 const NavBar = () =>{
   const closeSession = () =>{
-    localStorage.removeItem("user");
+    localStorage.removeItem("session");
   };
   return (
     <>
