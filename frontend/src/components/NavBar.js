@@ -7,8 +7,8 @@ import logo from '../assets/images/Logo.png'
 
 const NavBar = () =>{
   const closeSession = () =>{
-    localStorage.clear();
-  }
+    localStorage.removeItem("user");
+  };
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
