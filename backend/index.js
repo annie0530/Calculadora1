@@ -1,9 +1,13 @@
 const express = require('express');
+var cors = require('cors');
 const app = express();
 const port = 5000;
 app.use(express.static('public'));
 app.use(express.json());
+app.use(cors());
 const dbU = require('./src/db/crudcalculadora.js');
+
+
 
 app.get('/', function(req, res) {
     res.send('servidor express express')
